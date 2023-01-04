@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.about-image {
+  width: 8%;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.dark-theme {
+  background-color: black;
+}
+.light-theme {
+  background-color: white;
+}
+
+.dark-color {
+  color: #1e293b;
+  font-size: 2.5rem;
+}
+
+.light-color {
+  color: white;
+  font-size: 2.5rem;
+}

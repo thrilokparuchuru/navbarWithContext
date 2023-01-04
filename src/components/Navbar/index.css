@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.website-logo {
+  width: 5%;
+}
+.theme-image {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.home-link,
+.about-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #171f46;
+  margin-left: 20px;
+}
+
+.dark-theme {
+  background-color: black;
+}
+.light-theme {
+  background-color: white;
+}
+
+.dark {
+  color: #1e293b;
+}
+
+.light {
+  color: white;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

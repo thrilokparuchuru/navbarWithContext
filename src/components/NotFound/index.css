@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.not-found-image {
+  width: 25%;
+}
+
+.not-found-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.not-found-content-container h1 {
+  font-size: 1.5rem;
+}
+
+.not-found-content-container p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.dark-theme {
+  background-color: black;
+}
+.light-theme {
+  background-color: white;
+}
+
+.dark-color {
+  color: #1e293b;
+}
+
+.light-color {
+  color: white;
+}
